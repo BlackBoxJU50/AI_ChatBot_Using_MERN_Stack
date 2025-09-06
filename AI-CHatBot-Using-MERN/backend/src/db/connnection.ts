@@ -5,7 +5,7 @@ try {
     await connect(process.env.MONGODB_URL!);
     console.log("Database connected successfully");
 } catch (error) {
-    console.log("Database connection failed");
+    console.log("Database connection failed try again");
  throw new Error("Could not connect to database");
 
 }
