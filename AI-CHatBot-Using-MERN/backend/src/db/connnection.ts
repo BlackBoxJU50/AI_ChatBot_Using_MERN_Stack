@@ -19,7 +19,7 @@ async function disconnectToDatabase(){
         console.log("Database disconnected successfully");
     }
     catch (error) {
-        console.log("Database disconnection failed");
+        console.log("Database disconnection failed , Try again");
      throw new Error("Could not disconnect to database");   
 }
 }
